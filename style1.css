@@ -1,0 +1,85 @@
+h1 {
+     font-family: 'Bangers', cursive;
+     color: rgb(0, 0, 0);
+     font-size: 6rem;
+     margin-bottom: 0;
+     text-shadow: 2px 2px 8px grey;
+     text-align: center;
+ }
+.choosing-box {
+  margin: 4rem;
+  border-width: 3px;
+  border-style: solid;
+}
+.choosing-box-series{
+    margin: 4rem;
+    /* border-width: 3px;
+    border-style: solid; */
+}
+.label{
+    margin-right: 0.5rem;
+}
+.Operation{
+    margin-bottom: 2%;
+    text-align: center;
+
+}
+#go, .go_parameter {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+ 
+ h2 {
+     font-family: 'Press Start 2P',cursive;
+     text-align: center;
+     margin-top: 2rem;
+     margin-bottom: 3rem;
+     font-size: 200%;
+     color: transparent;
+     animation: effect 2s ease-in-out infinite;
+ }
+ h5,h3{
+     margin-top: 2rem;
+     margin-bottom: 3rem;
+ }
+h1,h2,.notice-box,.notice-parameter-box {
+    text-align: center;
+}
+ @keyframes effect {
+     0% {
+         background: linear-gradient(#EE82EE, #800080);
+         -webkit-background-clip: text;
+     }
+     12%{
+          background: linear-gradient(#FF00FF,#4B0082, );
+          -webkit-background-clip: text;
+     }
+     24%{
+         background: linear-gradient(#3CE7D7, #000FFF);
+         -webkit-background-clip: text;
+     }
+     36% {
+         background: linear-gradient(#7CFC00, #006400);
+         -webkit-background-clip: text;
+     }
+     48% {
+        background: linear-gradient(#FFFF66, #999900);
+        -webkit-background-clip: text;
+     }
+     60% {
+         background: linear-gradient(#FFA500, #FF4500);
+         -webkit-background-clip: text;
+     }
+     72%{
+         background: linear-gradient(#FF0000, #B22222);
+         -webkit-background-clip: text;
+     }
+     84%{
+         background: linear-gradient(#D2691E, #8B4513);
+         -webkit-background-clip: text;
+     }
+     100%{
+         background: linear-gradient(#000000, #000000);
+         -webkit-background-clip: text;
+     }
+ }
